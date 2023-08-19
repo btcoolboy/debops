@@ -11,33 +11,33 @@
 collections:
 
   - name: 'ansible.posix'
-    version: '*'
+    #version: '*'
 
   - name: 'ansible.utils'
-    version: '*'
+    #version: '*'
 
   - name: 'community.crypto'
-    version: '*'
+    #version: '*'
 
   - name: 'community.docker'
-    version: '*'
+    #version: '*'
 
   - name: 'community.general'
-    version: '*'
+    #version: '*'
 
   - name: 'community.libvirt'
-    version: '*'
+    #version: '*'
 
   - name: 'community.mysql'
-    version: '*'
+    #version: '*'
 
   - name: 'community.postgresql'
-    version: '*'
+    #version: '*'
 
   - name: 'community.rabbitmq'
-    version: '*'
+    #version: '*'
 
   # Uncomment this if you want to use DebOps Collection from Ansible Galaxy
   # instead of the one included in the DebOps Python package.
-  #- name: 'debops.debops'
-  #  version: '*'
+  - name: 'debops.debops'
+    #version: '*'
