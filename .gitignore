@@ -2,8 +2,8 @@
 # See https://docs.debops.org/en/master/user-guide/project-directories.html
 
 # Don't include Ansible Collections in git, but include requirements file
-/ansible/collections/*
-!/ansible/collections/requirements.yml
+#/ansible/collections/*
+#!/ansible/collections/requirements.yml
 
 #-- Local environment configuration
 .env
