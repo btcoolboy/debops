@@ -16,3 +16,8 @@
 
 [debops_all_hosts]
 #ubuntu-docker.cloud.lab ansible_host=ubuntu-docker.cloud.lab ansible_connection=local
+
+[containerd]
+k8s-master[01:03]
+k8s-worker[01:05]
+k8s-adm

@@ -16,3 +16,7 @@
 
 [debops_all_hosts]
 #ubuntu-docker.cloud.lab ansible_host=ubuntu-docker.cloud.lab ansible_connection=local
+
+[debian]
+10.200.101.165
+10.200.101.164
